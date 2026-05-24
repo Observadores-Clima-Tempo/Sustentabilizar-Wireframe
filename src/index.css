@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #ecfdf5;
+  --color-primary-100: #d1fae5;
+  --color-primary-200: #a7f3d0;
+  --color-primary-500: #10b981;
+  --color-primary-600: #059669;
+  --color-primary-700: #047857;
+  --color-primary-800: #065f46;
+
+  --color-bronze: #d97706;
+  --color-bronze-light: #fef3c7;
+  --color-silver: #64748b;
+  --color-silver-light: #f1f5f9;
+  --color-gold: #eab308;
+  --color-gold-light: #fefce8;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f9fafb;
+  color: #111827;
+  margin: 0;
+  min-height: 100vh;
+}
+
+@layer base {
+  input[type='text'],
+  input[type='email'],
+  input[type='password'],
+  input[type='number'],
+  input[type='date'],
+  textarea,
+  select {
+    outline: none;
+  }
+}
