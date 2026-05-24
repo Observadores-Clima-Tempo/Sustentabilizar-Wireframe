@@ -130,7 +130,7 @@ export const mockRecords = [
     evidences: [
       {
         id: 'ev-005',
-        file_url: 'https://images.unsplash.com/photo-1620283086402-f4fc56898dcc?w=400',
+        file_url: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=400',
         file_name: 'papel_06mai.jpg',
         captured_at: '2026-05-06T10:00:00Z',
       },
