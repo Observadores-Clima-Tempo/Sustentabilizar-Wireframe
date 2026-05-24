@@ -117,7 +117,7 @@ export function NewRecordPage() {
               inputMode="decimal"
             />
             <Input
-              label="Volume (L) — opcional"
+              label="Volume (dm³) — opcional"
               type="number"
               placeholder="0.0"
               step="0.1"

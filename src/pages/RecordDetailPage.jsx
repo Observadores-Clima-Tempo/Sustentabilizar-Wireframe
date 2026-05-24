@@ -65,7 +65,7 @@ export function RecordDetailPage() {
             {[
               { label: 'Tipo de resíduo', value: wt.label },
               { label: 'Peso registrado', value: `${record.weight_kg} kg` },
-              { label: 'Volume estimado', value: record.volume_liters ? `${record.volume_liters} L` : '—' },
+              { label: 'Volume estimado', value: record.volume_liters ? `${record.volume_liters} dm³` : '—' },
               { label: 'Frequência de coleta', value: freq?.label ?? '—' },
               { label: 'Data de coleta', value: formatDate(record.collection_date) },
               { label: 'Registrado em', value: formatDateTime(record.created_at) },

@@ -85,7 +85,7 @@ export function RecordsListPage() {
                           <div className="flex items-center gap-3 mt-1">
                             <span className="text-sm text-gray-700 font-medium">{rec.weight_kg} kg</span>
                             {rec.volume_liters && (
-                              <span className="text-xs text-gray-400">{rec.volume_liters} L</span>
+                              <span className="text-xs text-gray-400">{rec.volume_liters} dm³</span>
                             )}
                           </div>
                         </div>
